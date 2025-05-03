@@ -1,0 +1,6 @@
+@KiranmayeeServer_HostAddress = http://localhost:5007
+
+GET {{KiranmayeeServer_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

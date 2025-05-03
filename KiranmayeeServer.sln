@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.12.35707.178
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiranmayeeServer", "KiranmayeeServer\KiranmayeeServer.csproj", "{99F54274-AE8D-447B-B24E-DDBDF86186BC}"
+	ProjectSection(ProjectDependencies) = postProject
+		{8A123CFD-BBC6-41CA-A623-A6567C036AF3} = {8A123CFD-BBC6-41CA-A623-A6567C036AF3}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KiranModel", "KiranModel\KiranModel.csproj", "{8A123CFD-BBC6-41CA-A623-A6567C036AF3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99F54274-AE8D-447B-B24E-DDBDF86186BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99F54274-AE8D-447B-B24E-DDBDF86186BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99F54274-AE8D-447B-B24E-DDBDF86186BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99F54274-AE8D-447B-B24E-DDBDF86186BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8A123CFD-BBC6-41CA-A623-A6567C036AF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8A123CFD-BBC6-41CA-A623-A6567C036AF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8A123CFD-BBC6-41CA-A623-A6567C036AF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8A123CFD-BBC6-41CA-A623-A6567C036AF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
